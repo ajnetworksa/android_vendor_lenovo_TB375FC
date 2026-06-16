@@ -8,7 +8,7 @@
 
 import /system_ext/etc/init/hw/vendor_init_as_system.rc
 import /init.environ.rc
-import /system_ext/etc/init/hw/init.aee.rc
+# init.aee.rc removed — AEE diagnostic services stripped from build
 
 #copy from system/etc for APEX
 import /system/etc/init/apexd.rc
@@ -21,7 +21,7 @@ import /system/etc/init/android.hidl.allocator@1.0-service.rc
 #phase out multi_init.rc, move related system rc to here.
 #start
 import /system_ext/etc/init/aee_aed.rc
-import /system_ext/etc/init/aee_aed64.rc
+# aee_aed64.rc removed — AEE diagnostic services stripped from build
 import /system/etc/init/logd.rc
 import /system/etc/init/logd_e.rc
 import /system/etc/init/logcatd.rc
@@ -382,15 +382,15 @@ on property:ro.debuggable=1
 
 #INTERNAL_START
 
-service emdlogger1 /system/system_ext/bin/emdlogger1
-    class main
-    user shell
-    group system shell radio sdcard_rw inet sdcard_r media_rw
+# emdlogger1 and loghidlsysservice removed — diagnostic logging stripped
+# service emdlogger1 /system/system_ext/bin/emdlogger1
+#     class main
+#     user shell
+#     group system shell radio sdcard_rw inet sdcard_r media_rw
 
-
-service loghidlsysservice /system_ext/bin/loghidlsysservice
-    class main
-    user shell
-    group system shell radio
+# service loghidlsysservice /system_ext/bin/loghidlsysservice
+#     class main
+#     user shell
+#     group system shell radio
 
 #INTERNAL_END

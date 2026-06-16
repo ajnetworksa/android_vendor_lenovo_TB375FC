@@ -1,7 +1,7 @@
 # import AOSP service related rc in meta mode and factory mode.
 #
 import /system_ext/etc/init/aee_aed.rc
-import /system_ext/etc/init/aee_aed64.rc
+# aee_aed64.rc removed — AEE diagnostic services stripped from build
 import /vendor/etc/init/aee_aedv.rc
 import /vendor/etc/init/aee_aedv64.rc
 import /system/etc/init/logd.rc

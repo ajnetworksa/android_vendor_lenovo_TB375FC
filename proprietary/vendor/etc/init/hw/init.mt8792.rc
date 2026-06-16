@@ -1137,7 +1137,7 @@ service factory_no_image /vendor/bin/factory
 on property:sys.boot_completed=1 && property:ro.boot.atm=enable
     start meta_tst
     start loghidlvendorservice
-    start loghidlsysservice
+    # loghidlsysservice removed — diagnostic logging stripped
 
 # reset mdmode when modem crash happens in ATM
 on property:vendor.mtk.md1.status=reset
