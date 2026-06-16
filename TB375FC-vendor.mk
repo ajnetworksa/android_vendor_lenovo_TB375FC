@@ -523,7 +523,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/mtk_lbs_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_lbs_service.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/mtk_storageproxyd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_storageproxyd.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/mtklog.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtklog.rc \
-    vendor/lenovo/TB375FC/proprietary/vendor/etc/init/mtkpower_applist-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtkpower_applist-mtk-default.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/mtkrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtkrild.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/muxreport.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/muxreport.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
@@ -544,8 +543,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/vendor.lenovo.hardware.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lenovo.hardware.usb.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmagent-service.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmlpq@V1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmlpq@V1-service.rc \
-    vendor/lenovo/TB375FC/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc \
-    vendor/lenovo/TB375FC/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram-sevice.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/vendor.mediatek.hardware.tinno_keyboard@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.tinno_keyboard@1.0-service.rc \
@@ -743,7 +740,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/motorola.hardware.input@1.1-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/motorola.hardware.input@1.1-service.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/mtk_lbs_service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/mtk_lbs_service.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/mtkgnss-batching.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/mtkgnss-batching.xml \
-    vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/mtkpower_applist-mtk-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/mtkpower_applist-mtk-default.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/power-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/power-mediatek.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/vendor.dolby.hardware.dms.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.dolby.hardware.dms.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/vendor.dolby.media.c2@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.dolby.media.c2@1.0-service.xml \
@@ -1155,7 +1151,6 @@ PRODUCT_PACKAGES += \
     sound_trigger.primary.default \
     thermal_hal \
     vendor.mediatek.hardware.audio-impl \
-    vendor.mediatek.hardware.mtkpower-aidl-impl \
     vendor.mediatek.hardware.nvram-impl \
     vibrator.default \
     libMtkSpeechEnh \
@@ -2238,8 +2233,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.gpuserv-service \
     vendor.mediatek.hardware.mmagent-service \
     vendor.mediatek.hardware.mmlpq@V1-service \
-    vendor.mediatek.hardware.mtkpower-service.mediatek \
-    vendor.mediatek.hardware.mtkpower_applist-service.mediatek \
     vendor.mediatek.hardware.nvram-service \
     vendor.mediatek.hardware.pq_aidl-service \
     vendor.mediatek.hardware.tinno_keyboard@1.0-service \

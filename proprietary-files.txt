@@ -679,8 +679,8 @@ vendor/bin/hw/vendor.mediatek.hardware.gnss-service
 vendor/bin/hw/vendor.mediatek.hardware.gpuserv-service
 vendor/bin/hw/vendor.mediatek.hardware.mmagent-service
 vendor/bin/hw/vendor.mediatek.hardware.mmlpq@V1-service
-vendor/bin/hw/vendor.mediatek.hardware.mtkpower-service.mediatek
-vendor/bin/hw/vendor.mediatek.hardware.mtkpower_applist-service.mediatek
+-vendor/bin/hw/vendor.mediatek.hardware.mtkpower-service.mediatek
+-vendor/bin/hw/vendor.mediatek.hardware.mtkpower_applist-service.mediatek
 vendor/bin/hw/vendor.mediatek.hardware.nvram-service
 vendor/bin/hw/vendor.mediatek.hardware.pq_aidl-service
 vendor/bin/hw/vendor.mediatek.hardware.tinno_keyboard@1.0-service
@@ -1143,7 +1143,7 @@ vendor/etc/init/mtk_gnss.rc
 vendor/etc/init/mtk_lbs_service.rc
 vendor/etc/init/mtk_storageproxyd.rc
 vendor/etc/init/mtklog.rc
-vendor/etc/init/mtkpower_applist-mtk-default.rc
+-vendor/etc/init/mtkpower_applist-mtk-default.rc
 vendor/etc/init/mtkrild.rc
 vendor/etc/init/muxreport.rc
 vendor/etc/init/netdagent.rc
@@ -1165,8 +1165,8 @@ vendor/etc/init/vendor.lenovo.hardware.touchscreen-service.rc
 vendor/etc/init/vendor.lenovo.hardware.usb.rc
 vendor/etc/init/vendor.mediatek.hardware.mmagent-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mmlpq@V1-service.rc
-vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
-vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
+-vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
+-vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.nvram-sevice.rc
 vendor/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc
 vendor/etc/init/vendor.mediatek.hardware.tinno_keyboard@1.0-service.rc
@@ -1379,7 +1379,7 @@ vendor/etc/vintf/manifest/mapper.mediatek.xml
 vendor/etc/vintf/manifest/motorola.hardware.input@1.1-service.xml
 vendor/etc/vintf/manifest/mtk_lbs_service.xml
 vendor/etc/vintf/manifest/mtkgnss-batching.xml
-vendor/etc/vintf/manifest/mtkpower_applist-mtk-default.xml
+-vendor/etc/vintf/manifest/mtkpower_applist-mtk-default.xml
 vendor/etc/vintf/manifest/power-mediatek.xml
 -vendor/etc/vintf/manifest/thermal-mediatek.xml
 vendor/etc/vintf/manifest/vendor.dolby.hardware.dms.xml
@@ -1537,7 +1537,7 @@ vendor/lib/hw/thermal_hal.so
 vendor/lib/hw/vendor.mediatek.hardware.audio-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so
-vendor/lib/hw/vendor.mediatek.hardware.mtkpower-aidl-impl.so
+-vendor/lib/hw/vendor.mediatek.hardware.mtkpower-aidl-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.nvram-impl.so
 vendor/lib/hw/vibrator.default.so
 vendor/lib/libHEVCdec_sa.ca7.android.so
@@ -2142,7 +2142,7 @@ vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice_aidl@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal_aidl@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.gnss-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.gnss.batching-impl.so
-vendor/lib64/hw/vendor.mediatek.hardware.mtkpower-aidl-impl.so
+-vendor/lib64/hw/vendor.mediatek.hardware.mtkpower-aidl-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.nvram-impl.so
 vendor/lib64/hw/vibrator.default.so
 vendor/lib64/interfaces.customNvService@1.0.so
