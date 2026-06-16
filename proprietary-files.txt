@@ -640,7 +640,7 @@ vendor/bin/hw/android.hardware.health-service.example
 vendor/bin/hw/android.hardware.lights-service.mediatek
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b
-vendor/bin/hw/android.hardware.memtrack-service.mediatek
+-vendor/bin/hw/android.hardware.memtrack-service.mediatek
 vendor/bin/hw/android.hardware.neuralnetworks-shim-service-mtk
 vendor/bin/hw/android.hardware.neuralnetworks-shim-service-mtk-lazy
 vendor/bin/hw/android.hardware.security.keymint@3.0-service.beanpod
@@ -1134,7 +1134,7 @@ vendor/etc/init/init.thermal_core.rc
 vendor/etc/init/init.touch.rc
 vendor/etc/init/init.wlan_drv.rc
 vendor/etc/init/lights-mtk-default.rc
-vendor/etc/init/memtrack-mediatek.rc
+-vendor/etc/init/memtrack-mediatek.rc
 vendor/etc/init/microtrust.bp_kmsetkey_ca.rc
 vendor/etc/init/microtrust.init_thh.rc
 vendor/etc/init/microtrust.rc
@@ -1375,7 +1375,7 @@ vendor/etc/vintf/manifest/manifest_mmlpq.xml
 vendor/etc/vintf/manifest/manifest_thh.xml
 vendor/etc/vintf/manifest/manifest_wechat.xml
 vendor/etc/vintf/manifest/mapper.mediatek.xml
-vendor/etc/vintf/manifest/memtrack-mediatek.xml
+-vendor/etc/vintf/manifest/memtrack-mediatek.xml
 vendor/etc/vintf/manifest/motorola.hardware.input@1.1-service.xml
 vendor/etc/vintf/manifest/mtk_lbs_service.xml
 vendor/etc/vintf/manifest/mtkgnss-batching.xml

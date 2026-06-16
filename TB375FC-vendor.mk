@@ -521,7 +521,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/init.touch.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.touch.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/lights-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lights-mtk-default.rc \
-    vendor/lenovo/TB375FC/proprietary/vendor/etc/init/memtrack-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/memtrack-mediatek.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/microtrust.bp_kmsetkey_ca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.bp_kmsetkey_ca.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/microtrust.init_thh.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.init_thh.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/microtrust.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.rc \
@@ -749,7 +748,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/manifest_thh.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_thh.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/manifest_wechat.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_wechat.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/mapper.mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/mapper.mediatek.xml \
-    vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/memtrack-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/memtrack-mediatek.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/motorola.hardware.input@1.1-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/motorola.hardware.input@1.1-service.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/mtk_lbs_service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/mtk_lbs_service.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/mtkgnss-batching.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/mtkgnss-batching.xml \
@@ -1131,7 +1129,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/thh/ta/d78d338b1ac349e09f65f4efe179739d.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d78d338b1ac349e09f65f4efe179739d.ta \
     vendor/lenovo/TB375FC/proprietary/vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta \
     vendor/lenovo/TB375FC/proprietary/vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta \
-    vendor/lenovo/TB375FC/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json \
+    vendor/lenovo/TB375FC/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json
 
 PRODUCT_PACKAGES += \
     libGLES_meow \
@@ -2238,7 +2236,6 @@ PRODUCT_PACKAGES += \
     android.hardware.lights-service.mediatek \
     android.hardware.media.c2@1.2-mediatek \
     android.hardware.media.c2@1.2-mediatek-64b \
-    android.hardware.memtrack-service.mediatek \
     android.hardware.neuralnetworks-shim-service-mtk \
     android.hardware.neuralnetworks-shim-service-mtk-lazy \
     android.hardware.thermal-service.mediatek \
