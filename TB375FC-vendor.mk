@@ -443,18 +443,12 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/gralloc/vpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/vpu.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init.insmod.mt6897.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.mt6897.cfg \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init.insmod.mt8792.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.mt8792.cfg \
-    vendor/lenovo/TB375FC/proprietary/vendor/etc/init/android.hardware.audio.service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.mediatek.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/android.hardware.bluetooth-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth-service-mediatek.rc \
-    vendor/lenovo/TB375FC/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/android.hardware.boot-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.boot-service.mtk.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/android.hardware.drm-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.clearkey.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/android.hardware.gatekeeper-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper-service.beanpod.rc \
-    vendor/lenovo/TB375FC/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc \
-    vendor/lenovo/TB375FC/proprietary/vendor/etc/init/android.hardware.graphics.composer@3.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@3.2-service.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/android.hardware.health-service.example.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health-service.example.rc \
-    vendor/lenovo/TB375FC/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek-64b.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek-64b.rc \
-    vendor/lenovo/TB375FC/proprietary/vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/android.hardware.security.keymint-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.beanpod.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/android.hardware.sensors-service-multihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors-service-multihal.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/android.hardware.usb-aidl-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb-aidl-service.mediatek.rc \
@@ -535,7 +529,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/networksetting.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/networksetting.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
-    vendor/lenovo/TB375FC/proprietary/vendor/etc/init/thermal-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/thermal-mediatek.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/touch_boost.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/touch_boost.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/vendor.dolby.media.c2-service-vision.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2-service-vision.rc \
@@ -719,7 +712,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/android.hardware.gatekeeper-service.beanpod.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gatekeeper-service.beanpod.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/android.hardware.health-service.example.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.health-service.example.xml \
-    vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service.beanpod.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.security.keymint-service.beanpod.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.beanpod.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.security.secureclock-service.beanpod.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.beanpod.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.security.sharedsecret-service.beanpod.xml \
@@ -753,7 +745,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/mtkgnss-batching.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/mtkgnss-batching.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/mtkpower_applist-mtk-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/mtkpower_applist-mtk-default.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/power-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/power-mediatek.xml \
-    vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/thermal-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/thermal-mediatek.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/vendor.dolby.hardware.dms.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.dolby.hardware.dms.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/vendor.dolby.media.c2@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.dolby.media.c2@1.0-service.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/vintf/manifest/vendor.lenovo.hardware.battery-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.lenovo.hardware.battery-service.xml \
@@ -1540,16 +1531,12 @@ PRODUCT_PACKAGES += \
     libvcodecdrv \
     APUWareApusysAidlServer \
     APUWareUtilsAidlServer \
-    android.hardware.power-service-mediatek \
     c2.dolby.client \
     c2.dolby.hevc.dec \
     c2.dolby.hevc.sec.dec \
     c2.dolby.store \
     libMEOW_data \
     Sarsensors.default \
-    android.hardware.gnss-impl-mediatek \
-    android.hardware.sensors-Sar-subhal-mediatek \
-    android.hardware.sensors@2.X-subhal-mediatek \
     gf_fingerprint.default \
     android.hardware.camera.provider@2.6-impl-mediatek \
     sensors.mediatek.V2.0 \
@@ -2225,23 +2212,9 @@ PRODUCT_PACKAGES += \
     gps_dump \
     gsm0710muxd \
     hostapd_cli \
-    android.hardware.audio.service.mediatek \
-    android.hardware.biometrics.fingerprint-service \
     android.hardware.bluetooth-service-mediatek \
-    android.hardware.bluetooth@1.1-service-mediatek \
     android.hardware.boot-service.mtk \
     android.hardware.gatekeeper-service.beanpod \
-    android.hardware.gnss-service.mediatek \
-    android.hardware.graphics.composer@3.2-service \
-    android.hardware.lights-service.mediatek \
-    android.hardware.media.c2@1.2-mediatek \
-    android.hardware.media.c2@1.2-mediatek-64b \
-    android.hardware.neuralnetworks-shim-service-mtk \
-    android.hardware.neuralnetworks-shim-service-mtk-lazy \
-    android.hardware.thermal-service.mediatek \
-    android.hardware.usb-aidl-service.mediatekv1.0 \
-    android.hardware.usb.gadget-aidl-service.mediatekv1.0 \
-    android.hardware.vibrator-service.mediatek \
     dvs-hidl-service \
     interfaces.factoryInterface@1.0-service \
     motorola.hardware.input@1.1-service \
