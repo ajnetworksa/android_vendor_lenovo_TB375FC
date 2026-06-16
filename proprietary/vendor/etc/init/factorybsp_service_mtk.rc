@@ -3,6 +3,7 @@ service interfaces.factoryInterface@1.0-service /vendor/bin/hw/interfaces.factor
     user system
     group root system sdcard_rw sdcard_r media_rw radio camera
     seclabel u:r:factory_services:s0
+    disabled
 
 service interfaces.factorySensor@1.0-service /vendor/bin/hw/interfaces.factorySensor@1.0-service
     class hal

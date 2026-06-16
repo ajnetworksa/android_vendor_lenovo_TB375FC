@@ -2,6 +2,7 @@ service factory_aidl_service /vendor/bin/hw/vendor.lenovo.hardware.factory-servi
     class hal
     user system
     group system
+    disabled
 
 on property:vendor.temp.countrycode=*
     setprop ro.boot.wificountrycode ${vendor.temp.countrycode}

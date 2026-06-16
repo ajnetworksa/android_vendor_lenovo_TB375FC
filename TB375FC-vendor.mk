@@ -49,12 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/system_ext/apex/com.android.vndk.v33.apex:$(TARGET_COPY_OUT_SYSTEM_EXT)/apex/com.android.vndk.v33.apex \
     vendor/lenovo/TB375FC/proprietary/system_ext/apex/com.android.vndk.v34.apex:$(TARGET_COPY_OUT_SYSTEM_EXT)/apex/com.android.vndk.v34.apex \
     vendor/lenovo/TB375FC/proprietary/system_ext/bin/AudioSetParam:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/AudioSetParam \
-    vendor/lenovo/TB375FC/proprietary/system_ext/bin/aee_aed64:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/aee_aed64 \
-    vendor/lenovo/TB375FC/proprietary/system_ext/bin/aee_aed64_v2:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/aee_aed64_v2 \
-    vendor/lenovo/TB375FC/proprietary/system_ext/bin/aee_core_forwarder_v2:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/aee_core_forwarder_v2 \
-    vendor/lenovo/TB375FC/proprietary/system_ext/bin/aee_dumpstate_v2:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/aee_dumpstate_v2 \
-    vendor/lenovo/TB375FC/proprietary/system_ext/bin/aee_v2:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/aee_v2 \
-    vendor/lenovo/TB375FC/proprietary/system_ext/bin/aeedb_v2:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/aeedb_v2 \
     vendor/lenovo/TB375FC/proprietary/system_ext/bin/batterywarning:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/batterywarning \
     vendor/lenovo/TB375FC/proprietary/system_ext/bin/boot_logo_updater:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/boot_logo_updater \
     vendor/lenovo/TB375FC/proprietary/system_ext/bin/fsck.ntfs:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/fsck.ntfs \
@@ -62,14 +56,14 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/system_ext/bin/hw/android.hidl.allocator@1.0-service:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/hw/android.hidl.allocator@1.0-service \
     vendor/lenovo/TB375FC/proprietary/system_ext/bin/hwservicemanager:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/hwservicemanager \
     vendor/lenovo/TB375FC/proprietary/system_ext/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/kpoc_charger \
-    vendor/lenovo/TB375FC/proprietary/system_ext/bin/loghidlsysservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/loghidlsysservice \
+    vendor/lenovo/TB375FC/proprietary/system_ext/bin/lbs_dbg_ext:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/lbs_dbg_ext \
     vendor/lenovo/TB375FC/proprietary/system_ext/bin/magt:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/magt \
-    vendor/lenovo/TB375FC/proprietary/system_ext/bin/mdlogger:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/mdlogger \
     vendor/lenovo/TB375FC/proprietary/system_ext/bin/mediahelper:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/mediahelper \
     vendor/lenovo/TB375FC/proprietary/system_ext/bin/mount.ntfs:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/mount.ntfs \
     vendor/lenovo/TB375FC/proprietary/system_ext/bin/mtk_plpath_utils:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/mtk_plpath_utils \
     vendor/lenovo/TB375FC/proprietary/system_ext/bin/omservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/omservice \
     vendor/lenovo/TB375FC/proprietary/system_ext/bin/rtt_v2:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/rtt_v2 \
+    vendor/lenovo/TB375FC/proprietary/system_ext/bin/terservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/terservice \
     vendor/lenovo/TB375FC/proprietary/system_ext/bin/thermald:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/thermald \
     vendor/lenovo/TB375FC/proprietary/system_ext/bin/trace:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/trace \
     vendor/lenovo/TB375FC/proprietary/system_ext/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/vtservice \
@@ -82,8 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/aconfig/flag.map:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/aconfig/flag.map \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/aconfig/flag.val:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/aconfig/flag.val \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/aconfig/package.map:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/aconfig/package.map \
-    vendor/lenovo/TB375FC/proprietary/system_ext/etc/aee-commit:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/aee-commit \
-    vendor/lenovo/TB375FC/proprietary/system_ext/etc/aee-config:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/aee-config \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration.xml \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/audio_policy_configuration_bluetooth_legacy_hal.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/audio_policy_configuration_stub.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration_stub.xml \
@@ -97,29 +89,25 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/custom.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/custom.conf \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default_volume_tables.xml \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hearing_aid_audio_policy_configuration.xml \
-    vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/aee_aed64.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/aee_aed64.rc \
-    vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/aee_aed64_v2.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/aee_aed64_v2.rc \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/android.hardware.audio.parameter_parser.service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/android.hardware.audio.parameter_parser.service.rc \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/android.hidl.allocator@1.0-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/android.hidl.allocator@1.0-service.rc \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/batterywarning.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/batterywarning.rc \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/bootlogoupdater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/bootlogoupdater.rc \
-    vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/hw/init.aee.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/init.aee.rc \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/hw/meta_init.system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/meta_init.system.rc \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/hw/vendor_init_as_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/vendor_init_as_system.rc \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/hwservicemanager.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hwservicemanager.rc \
+    vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/init.lbs_dbg.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.lbs_dbg.rc \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/init.thermald.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.thermald.rc \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/kpoc_charger.rc \
-    vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/loghidlsysservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/loghidlsysservice.rc \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/magt.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/magt.rc \
-    vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/mdlogger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/mdlogger.rc \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/mediaserver_dynamic.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/mediaserver_dynamic.rc \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/mtk-plpath-utils.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/mtk-plpath-utils.rc \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/mtk_usermodehelper.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/mtk_usermodehelper.rc \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/omservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/omservice.rc \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/rkp.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/rkp.rc \
+    vendor/lenovo/TB375FC/proprietary/system_ext/etc/init/terserver.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/terserver.rc \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/motorola/bgintents/com.android.systemui.bgintents.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/motorola/bgintents/com.android.systemui.bgintents.xml \
-    vendor/lenovo/TB375FC/proprietary/system_ext/etc/mtklog-config.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/mtklog-config.prop \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/nr-city.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/nr-city.xml \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/permissions/appfunctions.extension.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/appfunctions.extension.xml \
     vendor/lenovo/TB375FC/proprietary/system_ext/etc/permissions/com.android.carrierconfig.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.carrierconfig.xml \
@@ -236,7 +224,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/system_ext/lib64/libjpeg-alpha.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjpeg-alpha.so \
     vendor/lenovo/TB375FC/proprietary/system_ext/lib64/libmagt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmagt.so \
     vendor/lenovo/TB375FC/proprietary/system_ext/lib64/libmagtsync.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmagtsync.so \
-    vendor/lenovo/TB375FC/proprietary/system_ext/lib64/libmdloggerrecycle.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmdloggerrecycle.so \
     vendor/lenovo/TB375FC/proprietary/system_ext/lib64/libmediatek_exceptionlog.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmediatek_exceptionlog.so \
     vendor/lenovo/TB375FC/proprietary/system_ext/lib64/libmemoryDumpEncoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmemoryDumpEncoder.so \
     vendor/lenovo/TB375FC/proprietary/system_ext/lib64/libmtk_sf_llfp.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmtk_sf_llfp.so \
@@ -306,6 +293,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/system_ext/lib64/libstagefright_wfd_mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libstagefright_wfd_mtk.so \
     vendor/lenovo/TB375FC/proprietary/system_ext/lib64/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsysenv_system.so \
     vendor/lenovo/TB375FC/proprietary/system_ext/lib64/libteeservice_client.trustonic.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libteeservice_client.trustonic.so \
+    vendor/lenovo/TB375FC/proprietary/system_ext/lib64/libterservice.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libterservice.so \
     vendor/lenovo/TB375FC/proprietary/system_ext/lib64/libtflite_mtk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libtflite_mtk.mtk.so \
     vendor/lenovo/TB375FC/proprietary/system_ext/lib64/libtflite_mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libtflite_mtk.so \
     vendor/lenovo/TB375FC/proprietary/system_ext/lib64/libthroughputmode.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libthroughputmode.so \
@@ -401,104 +389,231 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/system_ext/usp/usp-info.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/usp/usp-info.txt \
     vendor/lenovo/TB375FC/proprietary/vendor/apex/com.google.android.widevine.nonupdatable.apex:$(TARGET_COPY_OUT_VENDOR)/apex/com.google.android.widevine.nonupdatable.apex \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/AgentTest:$(TARGET_COPY_OUT_VENDOR)/bin/AgentTest \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/[:$(TARGET_COPY_OUT_VENDOR)/bin/[ \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/acpi:$(TARGET_COPY_OUT_VENDOR)/bin/acpi \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/ated:$(TARGET_COPY_OUT_VENDOR)/bin/ated \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/audiocmdservice_atci:$(TARGET_COPY_OUT_VENDOR)/bin/audiocmdservice_atci \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/autobt:$(TARGET_COPY_OUT_VENDOR)/bin/autobt \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/awk:$(TARGET_COPY_OUT_VENDOR)/bin/awk \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/base64:$(TARGET_COPY_OUT_VENDOR)/bin/base64 \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/basename:$(TARGET_COPY_OUT_VENDOR)/bin/basename \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/bip_ap:$(TARGET_COPY_OUT_VENDOR)/bin/bip_ap \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/blkdiscard:$(TARGET_COPY_OUT_VENDOR)/bin/blkdiscard \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/blockdev:$(TARGET_COPY_OUT_VENDOR)/bin/blockdev \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/boringssl_self_test32:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test32 \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/boringssl_self_test64:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test64 \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/bp_id_attestation:$(TARGET_COPY_OUT_VENDOR)/bin/bp_id_attestation \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/bp_kmsetkey_ca:$(TARGET_COPY_OUT_VENDOR)/bin/bp_kmsetkey_ca \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/brctl:$(TARGET_COPY_OUT_VENDOR)/bin/brctl \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/bt_dump:$(TARGET_COPY_OUT_VENDOR)/bin/bt_dump \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/cal:$(TARGET_COPY_OUT_VENDOR)/bin/cal \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/camsys_dump_tool:$(TARGET_COPY_OUT_VENDOR)/bin/camsys_dump_tool \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/cat:$(TARGET_COPY_OUT_VENDOR)/bin/cat \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/ccci_mdinit:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_mdinit \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/ccci_rpcd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_rpcd \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/chattr:$(TARGET_COPY_OUT_VENDOR)/bin/chattr \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/chcon:$(TARGET_COPY_OUT_VENDOR)/bin/chcon \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/chgrp:$(TARGET_COPY_OUT_VENDOR)/bin/chgrp \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/chipinfo:$(TARGET_COPY_OUT_VENDOR)/bin/chipinfo \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/chmod:$(TARGET_COPY_OUT_VENDOR)/bin/chmod \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/chown:$(TARGET_COPY_OUT_VENDOR)/bin/chown \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/chroot:$(TARGET_COPY_OUT_VENDOR)/bin/chroot \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/chrt:$(TARGET_COPY_OUT_VENDOR)/bin/chrt \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/cksum:$(TARGET_COPY_OUT_VENDOR)/bin/cksum \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/clear:$(TARGET_COPY_OUT_VENDOR)/bin/clear \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/cmp:$(TARGET_COPY_OUT_VENDOR)/bin/cmp \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/comm:$(TARGET_COPY_OUT_VENDOR)/bin/comm \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/conninfra_loader:$(TARGET_COPY_OUT_VENDOR)/bin/conninfra_loader \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/cp:$(TARGET_COPY_OUT_VENDOR)/bin/cp \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/cpio:$(TARGET_COPY_OUT_VENDOR)/bin/cpio \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/ParameterDB.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/ParameterDB.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/ae/ParameterDB_ae.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/ae/ParameterDB_ae.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/ae/mt6897/ParameterDB_ae.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/ae/mt6897/ParameterDB_ae.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/af/ParameterDB_af.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/af/ParameterDB_af.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/af/mt6897/ParameterDB_af.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/af/mt6897/ParameterDB_af.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/awb/ParameterDB_awb.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/awb/ParameterDB_awb.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/awb/mt6897/ParameterDB_awb.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/awb/mt6897/ParameterDB_awb.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/awbsync/ParameterDB_awbsync.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/awbsync/ParameterDB_awbsync.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/awbsync/mt6897/ParameterDB_awbsync.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/awbsync/mt6897/ParameterDB_awbsync.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/feature/ParameterDB_feature.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/feature/ParameterDB_feature.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/feature/mt6897/ParameterDB_feature.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/feature/mt6897/ParameterDB_feature.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/flash/ParameterDB_flash.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/flash/ParameterDB_flash.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/flash/mt6897/ParameterDB_flash.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/flash/mt6897/ParameterDB_flash.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/flashcali/ParameterDB_flashcali.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/flashcali/ParameterDB_flashcali.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/flashcali/mt6897/ParameterDB_flashcali.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/flashcali/mt6897/ParameterDB_flashcali.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/mt6897/ParameterDB.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/mt6897/ParameterDB.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/mt6897/sw_top_control_data.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/mt6897/sw_top_control_data.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/mt6897/top_control_data.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/mt6897/top_control_data.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/pd/ParameterDB_pd.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/pd/ParameterDB_pd.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/pd/mt6897/ParameterDB_pd.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/pd/mt6897/ParameterDB_pd.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/ParameterDB_pipeline.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/ParameterDB_pipeline.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/mt6897/ParameterDB_pipeline.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/mt6897/ParameterDB_pipeline.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/port_select.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/port_select.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/sw_top_control_data.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/sw_top_control_data.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tone/ParameterDB_tone.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tone/ParameterDB_tone.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tone/mt6897/ParameterDB_tone.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tone/mt6897/ParameterDB_tone.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/top_control_data.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/top_control_data.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_info.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_info.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc13a0_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc13a0_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc13a0_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc13a0_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc13a0_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc13a0_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc13a0_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc13a0_mipi_raw/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx214_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx214_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx214_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx214_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx214_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx214_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx214_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx214_mipi_raw/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334_mipi_raw/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334sub_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334sub_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334sub_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334sub_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334sub_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334sub_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334sub_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334sub_mipi_raw/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx481_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx481_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx481_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx481_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx481_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx481_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx481_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx481_mipi_raw/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx499_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx499_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx499_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx499_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx499_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx499_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx499_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx499_mipi_raw/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx586_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx586_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx586_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx586_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx586_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx586_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx586_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx586_mipi_raw/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709_mipi_raw/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709o_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709o_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709o_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709o_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709o_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709o_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709o_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709o_mipi_raw/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dual_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dual_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dual_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dual_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dual_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dual_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dual_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dual_mipi_raw/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dualo_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dualo_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dualo_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dualo_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dualo_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dualo_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dualo_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dualo_mipi_raw/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766o_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766o_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766o_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766o_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766o_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766o_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766o_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766o_mipi_raw/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx866_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx866_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx866_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx866_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx866_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx866_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx866_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx866_mipi_raw/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx989_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx989_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx989_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx989_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx989_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx989_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx989_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx989_mipi_raw/mt6897/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mt6897/ISP_info.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mt6897/ISP_info.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov13b10_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov13b10_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov13b10_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov13b10_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov13b10_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov13b10_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov13b10_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov13b10_mipi_raw/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sxo_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sxo_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sxo_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sxo_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sxo_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sxo_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sxo_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sxo_mipi_raw/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k4h7_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k4h7_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k4h7_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k4h7_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k4h7_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k4h7_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k4h7_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k4h7_mipi_raw/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc820cs_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc820cs_mipi_raw/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc820cs_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc820cs_mipi_raw/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc820cs_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc820cs_mipi_raw/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc820cs_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc820cs_mipi_raw/mt6897/ISP_param.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/ISP_info.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/ISP_info.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/ISP_mapping.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/mt6897/ISP_mapping.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/mt6897/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/mt6897/ISP_param.db \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/mt6897/ISP_info.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/mt6897/ISP_info.db \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/cut:$(TARGET_COPY_OUT_VENDOR)/bin/cut \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/date:$(TARGET_COPY_OUT_VENDOR)/bin/date \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/dconfig_flashless:$(TARGET_COPY_OUT_VENDOR)/bin/dconfig_flashless \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/dcxosetcap:$(TARGET_COPY_OUT_VENDOR)/bin/dcxosetcap \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/dd:$(TARGET_COPY_OUT_VENDOR)/bin/dd \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/devmem:$(TARGET_COPY_OUT_VENDOR)/bin/devmem \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/df:$(TARGET_COPY_OUT_VENDOR)/bin/df \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/diff:$(TARGET_COPY_OUT_VENDOR)/bin/diff \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/dirname:$(TARGET_COPY_OUT_VENDOR)/bin/dirname \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/dmabuf_dump:$(TARGET_COPY_OUT_VENDOR)/bin/dmabuf_dump \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/dmc_core:$(TARGET_COPY_OUT_VENDOR)/bin/dmc_core \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/dmesg:$(TARGET_COPY_OUT_VENDOR)/bin/dmesg \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/dos2unix:$(TARGET_COPY_OUT_VENDOR)/bin/dos2unix \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/du:$(TARGET_COPY_OUT_VENDOR)/bin/du \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/dumpsys:$(TARGET_COPY_OUT_VENDOR)/bin/dumpsys \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/dynamicdata:$(TARGET_COPY_OUT_VENDOR)/bin/dynamicdata \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/eara_io_service:$(TARGET_COPY_OUT_VENDOR)/bin/eara_io_service \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/echo:$(TARGET_COPY_OUT_VENDOR)/bin/echo \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/egrep:$(TARGET_COPY_OUT_VENDOR)/bin/egrep \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/env:$(TARGET_COPY_OUT_VENDOR)/bin/env \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/expand:$(TARGET_COPY_OUT_VENDOR)/bin/expand \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/expr:$(TARGET_COPY_OUT_VENDOR)/bin/expr \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/factory:$(TARGET_COPY_OUT_VENDOR)/bin/factory \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/factoryAta:$(TARGET_COPY_OUT_VENDOR)/bin/factoryAta \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/fallocate:$(TARGET_COPY_OUT_VENDOR)/bin/fallocate \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/false:$(TARGET_COPY_OUT_VENDOR)/bin/false \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/fgrep:$(TARGET_COPY_OUT_VENDOR)/bin/fgrep \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/file:$(TARGET_COPY_OUT_VENDOR)/bin/file \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/find:$(TARGET_COPY_OUT_VENDOR)/bin/find \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/flock:$(TARGET_COPY_OUT_VENDOR)/bin/flock \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/fmt:$(TARGET_COPY_OUT_VENDOR)/bin/fmt \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/fpsgo:$(TARGET_COPY_OUT_VENDOR)/bin/fpsgo \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/free:$(TARGET_COPY_OUT_VENDOR)/bin/free \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/frs:$(TARGET_COPY_OUT_VENDOR)/bin/frs \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/frs_intf:$(TARGET_COPY_OUT_VENDOR)/bin/frs_intf \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/fsync:$(TARGET_COPY_OUT_VENDOR)/bin/fsync \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/gbe:$(TARGET_COPY_OUT_VENDOR)/bin/gbe \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/getconf:$(TARGET_COPY_OUT_VENDOR)/bin/getconf \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/getenforce:$(TARGET_COPY_OUT_VENDOR)/bin/getenforce \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/getevent:$(TARGET_COPY_OUT_VENDOR)/bin/getevent \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/getfattr:$(TARGET_COPY_OUT_VENDOR)/bin/getfattr \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/getopt:$(TARGET_COPY_OUT_VENDOR)/bin/getopt \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/getprop:$(TARGET_COPY_OUT_VENDOR)/bin/getprop \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/gpiodetect:$(TARGET_COPY_OUT_VENDOR)/bin/gpiodetect \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/gpiofind:$(TARGET_COPY_OUT_VENDOR)/bin/gpiofind \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/gpioget:$(TARGET_COPY_OUT_VENDOR)/bin/gpioget \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/gpioinfo:$(TARGET_COPY_OUT_VENDOR)/bin/gpioinfo \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/gpioset:$(TARGET_COPY_OUT_VENDOR)/bin/gpioset \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/gps_dump:$(TARGET_COPY_OUT_VENDOR)/bin/gps_dump \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/gpu_counter_producer:$(TARGET_COPY_OUT_VENDOR)/bin/gpu_counter_producer \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/grep:$(TARGET_COPY_OUT_VENDOR)/bin/grep \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/groups:$(TARGET_COPY_OUT_VENDOR)/bin/groups \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/gunzip:$(TARGET_COPY_OUT_VENDOR)/bin/gunzip \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/gzip:$(TARGET_COPY_OUT_VENDOR)/bin/gzip \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/head:$(TARGET_COPY_OUT_VENDOR)/bin/head \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/hostapd_cli:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd_cli \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/hostname:$(TARGET_COPY_OUT_VENDOR)/bin/hostname \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/android.hardware.audio.service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service.mediatek \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint-service \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/android.hardware.bluetooth-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth-service-mediatek \
@@ -507,6 +622,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/android.hardware.drm-service.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm-service.clearkey \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/android.hardware.gatekeeper-service.beanpod:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper-service.beanpod \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/android.hardware.gnss-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss-service.mediatek \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/android.hardware.graphics.allocator-V1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator-V1-service-mediatek \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/android.hardware.graphics.allocator-V2-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator-V2-service-mediatek \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/android.hardware.graphics.allocator-V2-service-mediatek.mt6897:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator-V2-service-mediatek.mt6897 \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/android.hardware.graphics.composer@3.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@3.2-service \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/android.hardware.health-service.example:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health-service.example \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/android.hardware.lights-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.lights-service.mediatek \
@@ -522,6 +640,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/android.hardware.usb.gadget-aidl-service.mediatekv1.0:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb.gadget-aidl-service.mediatekv1.0 \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/android.hardware.vibrator-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator-service.mediatek \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/android.hardware.wifi-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi-service-lazy \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/arm.mali.platform-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/arm.mali.platform-service.mediatek \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/arm.mali.platform-service.mediatek.mt6897:$(TARGET_COPY_OUT_VENDOR)/bin/hw/arm.mali.platform-service.mediatek.mt6897 \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/dvs-hidl-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/dvs-hidl-service \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/interfaces.factoryInterface@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/interfaces.factoryInterface@1.0-service \
@@ -557,13 +678,55 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/vendor.microtrust.hardware.soter-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.microtrust.hardware.soter-service \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/vendor.microtrust.hardware.thh@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.microtrust.hardware.thh@2.0-service \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/hwclock:$(TARGET_COPY_OUT_VENDOR)/bin/hwclock \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/i2cdetect:$(TARGET_COPY_OUT_VENDOR)/bin/i2cdetect \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/i2cdump:$(TARGET_COPY_OUT_VENDOR)/bin/i2cdump \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/i2cget:$(TARGET_COPY_OUT_VENDOR)/bin/i2cget \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/i2cset:$(TARGET_COPY_OUT_VENDOR)/bin/i2cset \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/i2ctransfer:$(TARGET_COPY_OUT_VENDOR)/bin/i2ctransfer \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/iconv:$(TARGET_COPY_OUT_VENDOR)/bin/iconv \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/id:$(TARGET_COPY_OUT_VENDOR)/bin/id \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/ifconfig:$(TARGET_COPY_OUT_VENDOR)/bin/ifconfig \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/init.insmod.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.insmod.sh \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/init.pstore_blk.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.pstore_blk.sh \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/init_thh:$(TARGET_COPY_OUT_VENDOR)/bin/init_thh \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/inotifyd:$(TARGET_COPY_OUT_VENDOR)/bin/inotifyd \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/insmod:$(TARGET_COPY_OUT_VENDOR)/bin/insmod \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/install:$(TARGET_COPY_OUT_VENDOR)/bin/install \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/ionice:$(TARGET_COPY_OUT_VENDOR)/bin/ionice \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/iorenice:$(TARGET_COPY_OUT_VENDOR)/bin/iorenice \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/jpegtool:$(TARGET_COPY_OUT_VENDOR)/bin/jpegtool \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/kill:$(TARGET_COPY_OUT_VENDOR)/bin/kill \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/killall:$(TARGET_COPY_OUT_VENDOR)/bin/killall \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/ln:$(TARGET_COPY_OUT_VENDOR)/bin/ln \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/load_policy:$(TARGET_COPY_OUT_VENDOR)/bin/load_policy \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/log:$(TARGET_COPY_OUT_VENDOR)/bin/log \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/logger:$(TARGET_COPY_OUT_VENDOR)/bin/logger \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/logname:$(TARGET_COPY_OUT_VENDOR)/bin/logname \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/logwrapper:$(TARGET_COPY_OUT_VENDOR)/bin/logwrapper \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/losetup:$(TARGET_COPY_OUT_VENDOR)/bin/losetup \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/ls:$(TARGET_COPY_OUT_VENDOR)/bin/ls \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/lsattr:$(TARGET_COPY_OUT_VENDOR)/bin/lsattr \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/lsmod:$(TARGET_COPY_OUT_VENDOR)/bin/lsmod \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/lsof:$(TARGET_COPY_OUT_VENDOR)/bin/lsof \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/lspci:$(TARGET_COPY_OUT_VENDOR)/bin/lspci \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/lsusb:$(TARGET_COPY_OUT_VENDOR)/bin/lsusb \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/make_f2fs_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/make_f2fs_vendor \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/md5sum:$(TARGET_COPY_OUT_VENDOR)/bin/md5sum \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/memeater:$(TARGET_COPY_OUT_VENDOR)/bin/memeater \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/meta_tst:$(TARGET_COPY_OUT_VENDOR)/bin/meta_tst \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/microcom:$(TARGET_COPY_OUT_VENDOR)/bin/microcom \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/mkdir:$(TARGET_COPY_OUT_VENDOR)/bin/mkdir \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/mkfifo:$(TARGET_COPY_OUT_VENDOR)/bin/mkfifo \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/mknod:$(TARGET_COPY_OUT_VENDOR)/bin/mknod \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/mkswap:$(TARGET_COPY_OUT_VENDOR)/bin/mkswap \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/mktemp:$(TARGET_COPY_OUT_VENDOR)/bin/mktemp \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/mnld:$(TARGET_COPY_OUT_VENDOR)/bin/mnld \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/modinfo:$(TARGET_COPY_OUT_VENDOR)/bin/modinfo \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/modprobe:$(TARGET_COPY_OUT_VENDOR)/bin/modprobe \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/more:$(TARGET_COPY_OUT_VENDOR)/bin/more \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/mount:$(TARGET_COPY_OUT_VENDOR)/bin/mount \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/mountpoint:$(TARGET_COPY_OUT_VENDOR)/bin/mountpoint \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/mt6660_calibration:$(TARGET_COPY_OUT_VENDOR)/bin/mt6660_calibration \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/mt6897/camsys_dump_tool:$(TARGET_COPY_OUT_VENDOR)/bin/mt6897/camsys_dump_tool \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/mt6897/jpegtool:$(TARGET_COPY_OUT_VENDOR)/bin/mt6897/jpegtool \
@@ -571,37 +734,129 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/mtk_plpath_utils_ota:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_plpath_utils_ota \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/mtk_storageproxyd:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_storageproxyd \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/muxreport:$(TARGET_COPY_OUT_VENDOR)/bin/muxreport \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/mv:$(TARGET_COPY_OUT_VENDOR)/bin/mv \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/nc:$(TARGET_COPY_OUT_VENDOR)/bin/nc \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/netcat:$(TARGET_COPY_OUT_VENDOR)/bin/netcat \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/netdagent:$(TARGET_COPY_OUT_VENDOR)/bin/netdagent \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/netdc:$(TARGET_COPY_OUT_VENDOR)/bin/netdc \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/netstat:$(TARGET_COPY_OUT_VENDOR)/bin/netstat \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/nice:$(TARGET_COPY_OUT_VENDOR)/bin/nice \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/nl:$(TARGET_COPY_OUT_VENDOR)/bin/nl \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/nohup:$(TARGET_COPY_OUT_VENDOR)/bin/nohup \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/nproc:$(TARGET_COPY_OUT_VENDOR)/bin/nproc \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/nsenter:$(TARGET_COPY_OUT_VENDOR)/bin/nsenter \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/nvram_lenovo:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_lenovo \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/od:$(TARGET_COPY_OUT_VENDOR)/bin/od \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/paste:$(TARGET_COPY_OUT_VENDOR)/bin/paste \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/patch:$(TARGET_COPY_OUT_VENDOR)/bin/patch \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/pgrep:$(TARGET_COPY_OUT_VENDOR)/bin/pgrep \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/pidof:$(TARGET_COPY_OUT_VENDOR)/bin/pidof \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/pkill:$(TARGET_COPY_OUT_VENDOR)/bin/pkill \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/pmap:$(TARGET_COPY_OUT_VENDOR)/bin/pmap \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/printenv:$(TARGET_COPY_OUT_VENDOR)/bin/printenv \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/printf:$(TARGET_COPY_OUT_VENDOR)/bin/printf \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/ps:$(TARGET_COPY_OUT_VENDOR)/bin/ps \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/pwd:$(TARGET_COPY_OUT_VENDOR)/bin/pwd \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/rcs_volte_stack:$(TARGET_COPY_OUT_VENDOR)/bin/rcs_volte_stack \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/read_cc:$(TARGET_COPY_OUT_VENDOR)/bin/read_cc \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/readelf:$(TARGET_COPY_OUT_VENDOR)/bin/readelf \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/readlink:$(TARGET_COPY_OUT_VENDOR)/bin/readlink \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/realpath:$(TARGET_COPY_OUT_VENDOR)/bin/realpath \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/renice:$(TARGET_COPY_OUT_VENDOR)/bin/renice \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/restorecon:$(TARGET_COPY_OUT_VENDOR)/bin/restorecon \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/rkp_factory_extraction_tool:$(TARGET_COPY_OUT_VENDOR)/bin/rkp_factory_extraction_tool \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/rkp_factory_extraction_tool64:$(TARGET_COPY_OUT_VENDOR)/bin/rkp_factory_extraction_tool64 \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/rm:$(TARGET_COPY_OUT_VENDOR)/bin/rm \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/rmdir:$(TARGET_COPY_OUT_VENDOR)/bin/rmdir \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/rmmod:$(TARGET_COPY_OUT_VENDOR)/bin/rmmod \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/rt5512_calibration:$(TARGET_COPY_OUT_VENDOR)/bin/rt5512_calibration \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/rtcwake:$(TARGET_COPY_OUT_VENDOR)/bin/rtcwake \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/runcon:$(TARGET_COPY_OUT_VENDOR)/bin/runcon \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/sed:$(TARGET_COPY_OUT_VENDOR)/bin/sed \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/sendevent:$(TARGET_COPY_OUT_VENDOR)/bin/sendevent \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/seq:$(TARGET_COPY_OUT_VENDOR)/bin/seq \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/setenforce:$(TARGET_COPY_OUT_VENDOR)/bin/setenforce \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/setfattr:$(TARGET_COPY_OUT_VENDOR)/bin/setfattr \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/setprop:$(TARGET_COPY_OUT_VENDOR)/bin/setprop \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/setsid:$(TARGET_COPY_OUT_VENDOR)/bin/setsid \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/sh:$(TARGET_COPY_OUT_VENDOR)/bin/sh \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/sha1sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha1sum \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/sha224sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha224sum \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/sha256sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha256sum \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/sha384sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha384sum \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/sha512sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha512sum \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/sleep:$(TARGET_COPY_OUT_VENDOR)/bin/sleep \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/smartpa_nvtest:$(TARGET_COPY_OUT_VENDOR)/bin/smartpa_nvtest \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/sort:$(TARGET_COPY_OUT_VENDOR)/bin/sort \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/split:$(TARGET_COPY_OUT_VENDOR)/bin/split \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/start:$(TARGET_COPY_OUT_VENDOR)/bin/start \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/stat:$(TARGET_COPY_OUT_VENDOR)/bin/stat \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/stop:$(TARGET_COPY_OUT_VENDOR)/bin/stop \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/stp_dump3:$(TARGET_COPY_OUT_VENDOR)/bin/stp_dump3 \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/strings:$(TARGET_COPY_OUT_VENDOR)/bin/strings \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/stty:$(TARGET_COPY_OUT_VENDOR)/bin/stty \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/swapoff:$(TARGET_COPY_OUT_VENDOR)/bin/swapoff \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/swapon:$(TARGET_COPY_OUT_VENDOR)/bin/swapon \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/sync:$(TARGET_COPY_OUT_VENDOR)/bin/sync \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/sysctl:$(TARGET_COPY_OUT_VENDOR)/bin/sysctl \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/tac:$(TARGET_COPY_OUT_VENDOR)/bin/tac \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/tail:$(TARGET_COPY_OUT_VENDOR)/bin/tail \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/tar:$(TARGET_COPY_OUT_VENDOR)/bin/tar \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/taskset:$(TARGET_COPY_OUT_VENDOR)/bin/taskset \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/tee:$(TARGET_COPY_OUT_VENDOR)/bin/tee \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/teei_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/teei_daemon \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/test:$(TARGET_COPY_OUT_VENDOR)/bin/test \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/thermal_core:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_core \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/thermal_intf:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_intf \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/time:$(TARGET_COPY_OUT_VENDOR)/bin/time \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/timeout:$(TARGET_COPY_OUT_VENDOR)/bin/timeout \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/toolbox:$(TARGET_COPY_OUT_VENDOR)/bin/toolbox \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/top:$(TARGET_COPY_OUT_VENDOR)/bin/top \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/touch:$(TARGET_COPY_OUT_VENDOR)/bin/touch \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/touch_boost:$(TARGET_COPY_OUT_VENDOR)/bin/touch_boost \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/toybox_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/toybox_vendor \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/tr:$(TARGET_COPY_OUT_VENDOR)/bin/tr \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/true:$(TARGET_COPY_OUT_VENDOR)/bin/true \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/truncate:$(TARGET_COPY_OUT_VENDOR)/bin/truncate \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/tty:$(TARGET_COPY_OUT_VENDOR)/bin/tty \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/uart_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/uart_launcher \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/uclampset:$(TARGET_COPY_OUT_VENDOR)/bin/uclampset \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/ulimit:$(TARGET_COPY_OUT_VENDOR)/bin/ulimit \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/umount:$(TARGET_COPY_OUT_VENDOR)/bin/umount \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/uname:$(TARGET_COPY_OUT_VENDOR)/bin/uname \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/uniq:$(TARGET_COPY_OUT_VENDOR)/bin/uniq \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/unix2dos:$(TARGET_COPY_OUT_VENDOR)/bin/unix2dos \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/unlink:$(TARGET_COPY_OUT_VENDOR)/bin/unlink \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/unshare:$(TARGET_COPY_OUT_VENDOR)/bin/unshare \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/uptime:$(TARGET_COPY_OUT_VENDOR)/bin/uptime \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/usleep:$(TARGET_COPY_OUT_VENDOR)/bin/usleep \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/uudecode:$(TARGET_COPY_OUT_VENDOR)/bin/uudecode \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/uuencode:$(TARGET_COPY_OUT_VENDOR)/bin/uuencode \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/uuidgen:$(TARGET_COPY_OUT_VENDOR)/bin/uuidgen \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/vendor_mke2fs:$(TARGET_COPY_OUT_VENDOR)/bin/vendor_mke2fs \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/vi:$(TARGET_COPY_OUT_VENDOR)/bin/vi \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/vmstat:$(TARGET_COPY_OUT_VENDOR)/bin/vmstat \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/vndservice:$(TARGET_COPY_OUT_VENDOR)/bin/vndservice \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/vndservicemanager:$(TARGET_COPY_OUT_VENDOR)/bin/vndservicemanager \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/volte_clientapi_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_clientapi_ua \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/volte_rcs_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_rcs_ua \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/vpud:$(TARGET_COPY_OUT_VENDOR)/bin/vpud \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/watch:$(TARGET_COPY_OUT_VENDOR)/bin/watch \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/wc:$(TARGET_COPY_OUT_VENDOR)/bin/wc \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/which:$(TARGET_COPY_OUT_VENDOR)/bin/which \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/whoami:$(TARGET_COPY_OUT_VENDOR)/bin/whoami \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/wifi_dump:$(TARGET_COPY_OUT_VENDOR)/bin/wifi_dump \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/wifitest:$(TARGET_COPY_OUT_VENDOR)/bin/wifitest \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/wlan_assistant:$(TARGET_COPY_OUT_VENDOR)/bin/wlan_assistant \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/wmt_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_launcher \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/wmt_loader:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loader \
     vendor/lenovo/TB375FC/proprietary/vendor/bin/wpa_cli:$(TARGET_COPY_OUT_VENDOR)/bin/wpa_cli \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/xargs:$(TARGET_COPY_OUT_VENDOR)/bin/xargs \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/xxd:$(TARGET_COPY_OUT_VENDOR)/bin/xxd \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/yes:$(TARGET_COPY_OUT_VENDOR)/bin/yes \
+    vendor/lenovo/TB375FC/proprietary/vendor/bin/zcat:$(TARGET_COPY_OUT_VENDOR)/bin/zcat \
+    vendor/lenovo/TB375FC/proprietary/vendor/build.prop:$(TARGET_COPY_OUT_VENDOR)/build.prop \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/AbnormalDisplayLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AbnormalDisplayLog_dynamic.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/AudioDump_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AudioDump_dynamic.xml \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/AudioLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AudioLog_dynamic.xml \
@@ -836,7 +1091,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/hw/factory_init.dcxo_nvram.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/factory_init.dcxo_nvram.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/hw/factory_init.project.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/factory_init.project.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/hw/factory_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/factory_init.rc \
-    vendor/lenovo/TB375FC/proprietary/vendor/etc/init/hw/init.aee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.aee.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/hw/init.cgroup.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.cgroup.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/hw/init.connectivity.common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.connectivity.common.rc \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/init/hw/init.connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.connectivity.rc \
@@ -1023,6 +1277,19 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/seccomp_policy/mediaswcodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaswcodec.policy \
+    vendor/lenovo/TB375FC/proprietary/vendor/etc/selinux/plat_pub_versioned.cil:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/plat_pub_versioned.cil \
+    vendor/lenovo/TB375FC/proprietary/vendor/etc/selinux/plat_sepolicy_vers.txt:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/plat_sepolicy_vers.txt \
+    vendor/lenovo/TB375FC/proprietary/vendor/etc/selinux/precompiled_sepolicy:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/precompiled_sepolicy \
+    vendor/lenovo/TB375FC/proprietary/vendor/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256 \
+    vendor/lenovo/TB375FC/proprietary/vendor/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256 \
+    vendor/lenovo/TB375FC/proprietary/vendor/etc/selinux/vendor_file_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_file_contexts \
+    vendor/lenovo/TB375FC/proprietary/vendor/etc/selinux/vendor_hwservice_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_hwservice_contexts \
+    vendor/lenovo/TB375FC/proprietary/vendor/etc/selinux/vendor_mac_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_mac_permissions.xml \
+    vendor/lenovo/TB375FC/proprietary/vendor/etc/selinux/vendor_property_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_property_contexts \
+    vendor/lenovo/TB375FC/proprietary/vendor/etc/selinux/vendor_seapp_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_seapp_contexts \
+    vendor/lenovo/TB375FC/proprietary/vendor/etc/selinux/vendor_sepolicy.cil:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_sepolicy.cil \
+    vendor/lenovo/TB375FC/proprietary/vendor/etc/selinux/vendor_service_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_service_contexts \
+    vendor/lenovo/TB375FC/proprietary/vendor/etc/selinux/vndservice_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vndservice_contexts \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/lenovo/TB375FC/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
@@ -1267,6 +1534,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkSpeechEnh.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libMtkSpeechEnh_swb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkSpeechEnh_swb.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib/libRSCpuRef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSCpuRef.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib/libRSDriver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib/libRS_internal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRS_internal.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libSQLiteModule_VER_ALL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSQLiteModule_VER_ALL.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTEECommon.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_iir.so \
@@ -1303,7 +1573,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiotoolkit_vendor.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaurisysdemo.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libavservices_minijail.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavservices_minijail.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib/libbcinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbcinfo.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbessound_hd_mtk_vendor.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib/libblas.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblas.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc32_vendor.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libbluetooth_audio_session_aidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_aidl.so \
@@ -1340,6 +1612,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libcodec2_vpp_mi_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_mi_plugin.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libcodec2_vpp_qt_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_qt_plugin.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libcodec2_vpp_rs_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_rs_plugin.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib/libcompiler_rt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcompiler_rt.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libcomposer_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcomposer_ext.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconnfem.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so \
@@ -1472,7 +1745,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libpqxmlflagparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqxmlflagparser.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libpqxmlparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqxmlparser.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libprotobuf-cpp-full-21.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-21.7.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib/libprotobuf-cpp-full-4.25.8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-4.25.8.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libprotobuf-cpp-lite-21.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-21.7.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib/libprotobuf-cpp-lite-4.25.8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-4.25.8.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/librcs_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_interface.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/librcs_volte_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_volte_core.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libreference-ril.so \
@@ -1731,12 +2006,15 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.hardware.camera.provider@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.6.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.hardware.cas-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.cas-V1-ndk.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.hardware.drm-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.drm-V1-ndk.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.hardware.drm-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.drm-V2-ndk.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.hardware.drm.common-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.drm.common-V1-ndk.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.hardware.gatekeeper-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gatekeeper-V1-ndk.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.hardware.gnss-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss-V3-ndk.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.hardware.graphics.allocator-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.allocator-V1-ndk.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.hardware.graphics.composer3-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.composer3-V2-ndk.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.hardware.health-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.health-V1-ndk.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.hardware.health-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.health-V2-ndk.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.hardware.health-V4-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.health-V4-ndk.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.hardware.keymaster-V4-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.keymaster-V4-ndk.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.hardware.light-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.light-V1-ndk.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.hardware.light-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.light-V2-ndk.so \
@@ -1779,6 +2057,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.hardware.usb.gadget-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.usb.gadget-V1-ndk.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.hardware.vibrator-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.vibrator-V2-ndk.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.hardware.wifi-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi-V1-ndk.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.hardware.wifi-V4-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi-V4-ndk.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.hardware.wifi.hostapd-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.hostapd-V1-ndk.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.hardware.wifi.supplicant-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.supplicant-V2-ndk.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/android.media.audio.common.types-V2-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.media.audio.common.types-V2-cpp.so \
@@ -1870,6 +2149,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkSpeechEnh.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libMtkSpeechEnh_swb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkSpeechEnh_swb.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib64/libRSCpuRef.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSCpuRef.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib64/libRSDriver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriver.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib64/libRS_internal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRS_internal.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libSQLiteModule_VER_ALL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSQLiteModule_VER_ALL.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTEECommon.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libVkLayer_mtk_rt_sdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVkLayer_mtk_rt_sdk.so \
@@ -1913,8 +2195,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiotoolkit_vendor.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaurisysdemo.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libavservices_minijail.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libavservices_minijail.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib64/libbcinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbcinfo.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbessound_hd_mtk_vendor.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libbinderdebug.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbinderdebug.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib64/libblas.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblas.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblisrc32_vendor.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libbluetooth_audio_session_aidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_aidl.so \
@@ -1967,8 +2251,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libcodec2_vpp_mi_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_mi_plugin.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libcodec2_vpp_qt_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_qt_plugin.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libcodec2_vpp_rs_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_rs_plugin.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib64/libcompiler_rt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcompiler_rt.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libcomposer_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcomposer_ext.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconnfem.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib64/libcppbor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppbor.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libcppbor_external.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppbor_external.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libcppcose_rkp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppcose_rkp.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustom_nvram.so \
@@ -2055,6 +2341,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libladder.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/liblenovo_keyboard.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblenovo_keyboard.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libmediautils_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmediautils_vendor.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib64/libmeminfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmeminfo.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libmemunreachable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmemunreachable.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminiui.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libmipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmipc.so \
@@ -2156,8 +2443,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libpqtuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqtuning.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libpqxmlflagparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqxmlflagparser.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libpqxmlparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqxmlparser.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib64/libprocinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprocinfo.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libprotobuf-cpp-full-21.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full-21.7.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib64/libprotobuf-cpp-full-4.25.8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full-4.25.8.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libprotobuf-cpp-lite-21.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-lite-21.7.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib64/libprotobuf-cpp-lite-4.25.8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-lite-4.25.8.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libpuresoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpuresoftkeymasterdevice.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libratconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libratconfig.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/librcs_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librcs_interface.so \
@@ -2224,6 +2514,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu5.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwapi.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/lib64/libwifi-system-iface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-system-iface.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libwifical.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifical.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libwifinvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifinvram.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/libwifinvramdata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifinvramdata.so \
@@ -2721,6 +3012,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/vendor.microtrust.hardware.soter-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.microtrust.hardware.soter-V1-ndk.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/vendor.microtrust.hardware.thh@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.microtrust.hardware.thh@2.0.so \
     vendor/lenovo/TB375FC/proprietary/vendor/lib64/wechat.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/wechat.beanpod.so \
+    vendor/lenovo/TB375FC/proprietary/vendor/odm:$(TARGET_COPY_OUT_VENDOR)/odm \
     vendor/lenovo/TB375FC/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
     vendor/lenovo/TB375FC/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
     vendor/lenovo/TB375FC/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
