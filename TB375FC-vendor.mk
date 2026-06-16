@@ -2051,7 +2051,6 @@ PRODUCT_PACKAGES += \
     libjpeg-alpha \
     libmagt \
     libmagtsync \
-    libmdloggerrecycle \
     libmediatek_exceptionlog \
     libmemoryDumpEncoder \
     libmtk_sf_llfp \
@@ -2319,20 +2318,12 @@ PRODUCT_PACKAGES += \
     wmt_loader \
     wpa_cli \
     AudioSetParam \
-    aee_aed64 \
-    aee_aed64_v2 \
-    aee_core_forwarder_v2 \
-    aee_dumpstate_v2 \
-    aee_v2 \
-    aeedb_v2 \
     batterywarning \
     boot_logo_updater \
     android.hidl.allocator@1.0-service \
     hwservicemanager \
     kpoc_charger \
-    loghidlsysservice \
     magt \
-    mdlogger \
     mediahelper \
     mtk_plpath_utils \
     omservice \
